@@ -1,0 +1,7 @@
+# Fichiers générés par les commandes
+data/mes.db
+data/simulation.db
+data/rapport_anomalies.csv
+__pycache__/
+*.pyc
+.pytest_cache/

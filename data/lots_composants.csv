@@ -1,0 +1,161 @@
+lot_id,composant,poste_id,fournisseur,date_reception,statut
+L1000,Châssis,1,F5,2026-01-05,conforme
+L1001,Châssis,1,F4,2026-01-09,conforme
+L1002,Châssis,1,F4,2026-01-13,conforme
+L1003,Châssis,1,F5,2026-01-17,conforme
+L1004,Châssis,1,F3,2026-01-21,conforme
+L1005,Châssis,1,F4,2026-01-25,conforme
+L1006,Châssis,1,F5,2026-01-29,conforme
+L1007,Châssis,1,F2,2026-02-02,conforme
+L1008,Châssis,1,F1,2026-02-06,conforme
+L1009,Châssis,1,F2,2026-02-10,conforme
+L1010,Châssis,1,F2,2026-02-14,conforme
+L1011,Châssis,1,F5,2026-02-18,conforme
+L1012,Châssis,1,F5,2026-02-22,conforme
+L1013,Châssis,1,F1,2026-02-26,conforme
+L1014,Châssis,1,F3,2026-03-02,conforme
+L1015,Châssis,1,F5,2026-03-06,conforme
+L1016,Châssis,1,F1,2026-03-10,conforme
+L1017,Châssis,1,F4,2026-03-14,conforme
+L1018,Châssis,1,F1,2026-03-18,conforme
+L1019,Châssis,1,F3,2026-03-22,conforme
+L1020,Châssis,1,F5,2026-03-26,conforme
+L1021,Châssis,1,F2,2026-03-30,conforme
+L1022,Châssis,1,F2,2026-04-03,conforme
+L1023,Châssis,1,F2,2026-04-07,conforme
+L1024,Châssis,1,F4,2026-04-11,conforme
+L1025,Châssis,1,F2,2026-04-15,non conforme
+L1026,Châssis,1,F5,2026-04-19,conforme
+L1027,Châssis,1,F3,2026-04-23,conforme
+L1028,Châssis,1,F3,2026-04-27,conforme
+L1029,Châssis,1,F3,2026-05-01,conforme
+L1030,Châssis,1,F3,2026-05-05,conforme
+L1031,Châssis,1,F3,2026-05-09,conforme
+L1032,Châssis,1,F3,2026-05-13,conforme
+L1033,Châssis,1,F5,2026-05-17,conforme
+L1034,Châssis,1,F5,2026-05-21,conforme
+L1035,Châssis,1,F4,2026-05-25,conforme
+L1036,Châssis,1,F4,2026-05-29,conforme
+L1037,Châssis,1,F4,2026-06-02,conforme
+L1038,Châssis,1,F2,2026-06-06,conforme
+L1039,Châssis,1,F5,2026-06-10,conforme
+L2000,Visserie,2,F3,2026-01-05,conforme
+L2001,Visserie,2,F2,2026-01-09,conforme
+L2002,Visserie,2,F5,2026-01-13,conforme
+L2003,Visserie,2,F1,2026-01-17,conforme
+L2004,Visserie,2,F5,2026-01-21,conforme
+L2005,Visserie,2,F4,2026-01-25,conforme
+L2006,Visserie,2,F1,2026-01-29,conforme
+L2007,Visserie,2,F1,2026-02-02,conforme
+L2008,Visserie,2,F3,2026-02-06,conforme
+L2009,Visserie,2,F1,2026-02-10,conforme
+L2010,Visserie,2,F1,2026-02-14,conforme
+L2011,Visserie,2,F3,2026-02-18,conforme
+L2012,Visserie,2,F5,2026-02-22,conforme
+L2013,Visserie,2,F3,2026-02-26,conforme
+L2014,Visserie,2,F5,2026-03-02,conforme
+L2015,Visserie,2,F5,2026-03-06,conforme
+L2016,Visserie,2,F5,2026-03-10,conforme
+L2017,Visserie,2,F4,2026-03-14,conforme
+L2018,Visserie,2,F3,2026-03-18,conforme
+L2019,Visserie,2,F3,2026-03-22,conforme
+L2020,Visserie,2,F2,2026-03-26,conforme
+L2021,Visserie,2,F3,2026-03-30,conforme
+L2022,Visserie,2,F2,2026-04-03,conforme
+L2023,Visserie,2,F2,2026-04-07,conforme
+L2024,Visserie,2,F5,2026-04-11,conforme
+L2025,Visserie,2,F1,2026-04-15,conforme
+L2026,Visserie,2,F1,2026-04-19,conforme
+L2027,Visserie,2,F1,2026-04-23,conforme
+L2028,Visserie,2,F5,2026-04-27,conforme
+L2029,Visserie,2,F4,2026-05-01,conforme
+L2030,Visserie,2,F5,2026-05-05,conforme
+L2031,Visserie,2,F2,2026-05-09,conforme
+L2032,Visserie,2,F4,2026-05-13,conforme
+L2033,Visserie,2,F2,2026-05-17,conforme
+L2034,Visserie,2,F3,2026-05-21,conforme
+L2035,Visserie,2,F1,2026-05-25,conforme
+L2036,Visserie,2,F4,2026-05-29,conforme
+L2037,Visserie,2,F5,2026-06-02,conforme
+L2038,Visserie,2,F4,2026-06-06,conforme
+L2039,Visserie,2,F1,2026-06-10,conforme
+L3000,Faisceau de câbles,3,F3,2026-01-05,conforme
+L3001,Faisceau de câbles,3,F2,2026-01-09,conforme
+L3002,Faisceau de câbles,3,F5,2026-01-13,conforme
+L3003,Faisceau de câbles,3,F5,2026-01-17,conforme
+L3004,Faisceau de câbles,3,F1,2026-01-21,conforme
+L3005,Faisceau de câbles,3,F3,2026-01-25,conforme
+L3006,Faisceau de câbles,3,F5,2026-01-29,conforme
+L3007,Faisceau de câbles,3,F5,2026-02-02,conforme
+L3008,Faisceau de câbles,3,F4,2026-02-06,conforme
+L3009,Faisceau de câbles,3,F4,2026-02-10,conforme
+L3010,Faisceau de câbles,3,F1,2026-02-14,conforme
+L3011,Faisceau de câbles,3,F4,2026-02-18,conforme
+L3012,Faisceau de câbles,3,F3,2026-02-22,non conforme
+L3013,Faisceau de câbles,3,F1,2026-02-26,conforme
+L3014,Faisceau de câbles,3,F2,2026-03-02,conforme
+L3015,Faisceau de câbles,3,F3,2026-03-06,conforme
+L3016,Faisceau de câbles,3,F4,2026-03-10,conforme
+L3017,Faisceau de câbles,3,F3,2026-03-14,conforme
+L3018,Faisceau de câbles,3,F4,2026-03-18,conforme
+L3019,Faisceau de câbles,3,F5,2026-03-22,conforme
+L3020,Faisceau de câbles,3,F4,2026-03-26,conforme
+L3021,Faisceau de câbles,3,F2,2026-03-30,conforme
+L3022,Faisceau de câbles,3,F4,2026-04-03,conforme
+L3023,Faisceau de câbles,3,F3,2026-04-07,conforme
+L3024,Faisceau de câbles,3,F1,2026-04-11,conforme
+L3025,Faisceau de câbles,3,F1,2026-04-15,conforme
+L3026,Faisceau de câbles,3,F4,2026-04-19,conforme
+L3027,Faisceau de câbles,3,F2,2026-04-23,conforme
+L3028,Faisceau de câbles,3,F3,2026-04-27,conforme
+L3029,Faisceau de câbles,3,F2,2026-05-01,conforme
+L3030,Faisceau de câbles,3,F2,2026-05-05,conforme
+L3031,Faisceau de câbles,3,F1,2026-05-09,conforme
+L3032,Faisceau de câbles,3,F2,2026-05-13,conforme
+L3033,Faisceau de câbles,3,F5,2026-05-17,conforme
+L3034,Faisceau de câbles,3,F3,2026-05-21,conforme
+L3035,Faisceau de câbles,3,F2,2026-05-25,conforme
+L3036,Faisceau de câbles,3,F3,2026-05-29,conforme
+L3037,Faisceau de câbles,3,F5,2026-06-02,conforme
+L3038,Faisceau de câbles,3,F2,2026-06-06,conforme
+L3039,Faisceau de câbles,3,F3,2026-06-10,conforme
+L5000,Carton,5,F3,2026-01-05,conforme
+L5001,Carton,5,F4,2026-01-09,conforme
+L5002,Carton,5,F3,2026-01-13,conforme
+L5003,Carton,5,F4,2026-01-17,conforme
+L5004,Carton,5,F3,2026-01-21,conforme
+L5005,Carton,5,F4,2026-01-25,conforme
+L5006,Carton,5,F5,2026-01-29,conforme
+L5007,Carton,5,F1,2026-02-02,conforme
+L5008,Carton,5,F3,2026-02-06,conforme
+L5009,Carton,5,F3,2026-02-10,conforme
+L5010,Carton,5,F2,2026-02-14,conforme
+L5011,Carton,5,F2,2026-02-18,conforme
+L5012,Carton,5,F1,2026-02-22,conforme
+L5013,Carton,5,F3,2026-02-26,conforme
+L5014,Carton,5,F5,2026-03-02,conforme
+L5015,Carton,5,F1,2026-03-06,conforme
+L5016,Carton,5,F3,2026-03-10,conforme
+L5017,Carton,5,F5,2026-03-14,conforme
+L5018,Carton,5,F5,2026-03-18,conforme
+L5019,Carton,5,F2,2026-03-22,conforme
+L5020,Carton,5,F1,2026-03-26,conforme
+L5021,Carton,5,F4,2026-03-30,conforme
+L5022,Carton,5,F1,2026-04-03,conforme
+L5023,Carton,5,F2,2026-04-07,conforme
+L5024,Carton,5,F3,2026-04-11,conforme
+L5025,Carton,5,F5,2026-04-15,conforme
+L5026,Carton,5,F1,2026-04-19,conforme
+L5027,Carton,5,F4,2026-04-23,conforme
+L5028,Carton,5,F3,2026-04-27,conforme
+L5029,Carton,5,F1,2026-05-01,conforme
+L5030,Carton,5,F5,2026-05-05,conforme
+L5031,Carton,5,F5,2026-05-09,conforme
+L5032,Carton,5,F3,2026-05-13,conforme
+L5033,Carton,5,F5,2026-05-17,conforme
+L5034,Carton,5,F4,2026-05-21,conforme
+L5035,Carton,5,F5,2026-05-25,conforme
+L5036,Carton,5,F5,2026-05-29,conforme
+L5037,Carton,5,F3,2026-06-02,conforme
+L5038,Carton,5,F2,2026-06-06,conforme
+L5039,Carton,5,F1,2026-06-10,conforme

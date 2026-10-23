@@ -1,0 +1,6 @@
+poste_id,nom,temps_cycle_theorique_min
+1,Préparation,0.6
+2,Assemblage mécanique,1.2
+3,Câblage,1.0
+4,Test fonctionnel,0.8
+5,Emballage,0.4
