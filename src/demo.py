@@ -8,6 +8,7 @@ Démonstrateur MES — outil en ligne de commande.
   python src/demo.py tracer OF00845       lots utilisés par une commande (et commandes liées si lot défectueux)
   python src/demo.py pourquoi OF00845     explique les conclusions du système sur un OF
   python src/demo.py simuler panne        rejoue une situation réelle (panne, rappel, ko) sur une copie de la base
+  python src/demo.py pareto               analyse de Pareto des anomalies
   python src/demo.py trs                  TRS par poste
   python src/demo.py regles               affiche la base de règles
 """
@@ -84,6 +85,21 @@ def cmd_pourquoi(a):
     for t, c in faits:
         print(expliquer(bf, t, c), "\n")
 
+def cmd_pareto(_):
+    """Analyse de Pareto des anomalies : quels types d'anomalies pèsent le plus ?"""
+    con = connexion()
+    _, an, _, _ = verifier(con)
+    if an.empty:
+        print("Aucune anomalie."); return
+    p = an.type_anomalie.value_counts().rename("nombre").to_frame()
+    p["part_%"] = (100 * p.nombre / p.nombre.sum()).round(1)
+    p["cumul_%"] = (100 * p.nombre.cumsum() / p.nombre.sum()).round(1)
+    print("Analyse de Pareto des anomalies (du type le plus fréquent au moins fréquent)\n")
+    print(p.to_string())
+    top = p.index[: (p["cumul_%"] < 80).sum() + 1]
+    print(f"\n{len(top)} types d'anomalies sur {len(p)} représentent {p.loc[top, 'part_%'].sum():.0f} % des anomalies :",
+          ", ".join(top), "-> à traiter en priorité.")
+
 def cmd_trs(_):
     print(pd.read_sql("SELECT * FROM v_trs_poste", connexion()).to_string(index=False))
 
@@ -156,7 +172,7 @@ def cmd_simuler(a):
 p = argparse.ArgumentParser(description="Démonstrateur MES avec système expert de vérification")
 sp = p.add_subparsers(dest="commande", required=True)
 for nom, f in [("init", cmd_init), ("verifier", cmd_verifier), ("corriger", cmd_corriger),
-               ("trs", cmd_trs), ("regles", cmd_regles)]:
+               ("trs", cmd_trs), ("regles", cmd_regles), ("pareto", cmd_pareto)]:
     sp.add_parser(nom).set_defaults(f=f)
 x = sp.add_parser("tracer"); x.add_argument("lot"); x.set_defaults(f=cmd_tracer)
 x = sp.add_parser("pourquoi"); x.add_argument("of"); x.set_defaults(f=cmd_pourquoi)

@@ -59,6 +59,7 @@ python src/demo.py simuler panne     # test d'une situation réelle
 | `python src/demo.py tracer OF00845` | Les lots d'un OF, et les OF liés si un lot est défectueux |
 | `python src/demo.py corriger` | Corrige ce qui est sûr, transmet le reste |
 | `python src/demo.py simuler panne` | Rejoue une situation réelle sur une copie de la base (`panne`, `rappel`, `ko`) |
+| `python src/demo.py pareto` | Analyse de Pareto des anomalies (types à traiter en priorité) |
 | `python src/demo.py trs` | Taux de rendement synthétique par poste |
 | `python tests/lancer_tests.py` | Lance les 5 tests (ou `python -m pytest -v`) |
 
